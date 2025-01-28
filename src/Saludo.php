@@ -5,6 +5,7 @@ class Saludo
  private $saludos;
  public function __construct()
  {
+    
  $this->saludos = [
  "es" => ["saludo" => "¡Hola Mundo!", "codigo" => "ES"], // Español
  "zh" => ["saludo" => "你好，世界！", "codigo" => "CN"], // Chino
