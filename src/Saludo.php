@@ -23,7 +23,5 @@ class Saludo
  {
  $indice = array_rand($this->saludos);
  return $this->saludos[$indice];
-
- 
  }
 }
